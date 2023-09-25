@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Email</title>
+    
+<style type="text/css">
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('fonts/HelveticaNeueLTStd-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('fonts/HelveticaNeueLTStd-Md.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('fonts/HelveticaNeueLTStd-Bd.woff') format('woff');
+    font-weight: bold;
+}
+body,.wrapper {
+    background-color: #f2f2f2;
+    color: #262626;
+    font-family:'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+    margin: 0;
+}
+/* wrappers */
+.wrapper{
+    width:100%;
+    table-layout:fixed;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+}
+.container{
+    max-width:600px;
+    margin:0 auto;
+}
+/* Tipography */
+h1,h2,h3,h4,h5,p,a,span,button,li{
+    font-family:'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+    margin-top: 0;
+}
+h1,h2,h3,h4,h5 {
+    color: #262626;
+}
+h1{
+    font-size: 43.25px;
+    line-height: 36.04px;
+    font-weight: 600;
+    max-width: 320px;
+    color: #262626;
+    margin: 0 0 21px 0;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 36px;
+
+
+}
+h3 { font-size: 24px; line-height: 25px;    margin-bottom: 15px; }
+h4{
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.02rem;
+}
+p{ color: #262626; font-size: 16px;line-height: 28px;margin-top: 0;}
+img{
+    margin:0;
+    padding:0;
+    border-spacing:0;
+}
+a {
+    display: inline-block;
+}
+
+/* Common clases */
+
+#top_nav {
+    color: #000;
+    font-size: 13px;
+    line-height: 48px;
+}
+ 
+/*
+	@tab Hero
+	@section Hero Background
+	@tip Set the background for your email's hero area.
+*/
+#hero{
+    min-height: 425px;
+}
+#hero p{
+    color: #262626;
+    font-size: 18px;
+    line-height: normal;
+}
+
+#hero .hero-top {
+    color: #fff;
+}
+
+#main_content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #262626;
+    font-weight: 400;
+    text-align: center;
+}
+
+.col-l{
+    padding-left: 11px;
+}
+.col-r{
+    padding-left: 11px;
+}
+.col-l img, .col-r img{
+    margin-right: 11px;
+
+}
+
+.col-l p strong, .col-r p strong{
+    font-weight: 500;
+}
+
+/*
+	@tab Main Content
+	@section Background 1
+	@tip Set the background for your email's content area.
+*/
+
+#pre_footer{
+    background:#f8f6fc;
+    padding:40px 15px 50px;
+    text-align:center;
+}
+#pre_footer #cta_content h3 {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#pre_footer #cta_content p {
+    font-size: 17.5px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pre_footer #cta_content p.big {
+    font-size: 22.5px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#pre_footer #cta_content p.big span {
+    font-weight: normal;
+}
+#product_list {
+    display: block;
+    padding: 0 20px 40px;
+}
+#product_list .product {
+    float: left;
+    text-align: center;
+    width: 33.333333%;
+}
+#product_list img {
+    margin-bottom: 10px;
+}
+#product_list p {
+    font-size: 11.85px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    text-transform: uppercase;
+}
+#full_with_image img {
+    width: 100%;
+}
+.clearfix {
+    clear: both;
+    display: table;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-3-cols table{
+    padding-left: 5px;
+}
+.section-3-cols h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.section-3-cols p{
+    font-size: 15px;
+    line-height: 24px;
+    min-height: 144px;
+    max-width: 160px;
+}
+.testimonial{
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 20px;
+    max-width: 440px;
+}
+.author{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+.position{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.btn-white{
+    text-decoration: none;
+    min-width: 161px;
+    padding: 7px 10px 5px;
+    text-align: center;
+    font-size: 12px;
+    border-color: #adadad;
+    background-image: url(./image_news/btn-white.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.btn-red{
+    text-decoration: none;
+    min-width: 201px;
+    padding: 19px 10px 16px;
+    text-align: center;
+    font-size: 18px;
+    border-color: #e55a50;
+    background-image: url(./image_news/btn-red.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#footer{
+    background-color: #363636;
+    color:#fff;
+}
+#footer a{
+    color:#fff;
+    text-decoration:none;
+    display: inline-block !important;
+}
+#footer a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+#footer p{
+    margin-bottom: 0;
+    color: #fff;
+    max-width: 100%;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    opacity: 0.5;
+}
+#socials,#info_footer{
+    float: left;
+}
+#socials a{
+    display:inline-block;
+    margin-right:10px;
+    border-radius:50%;
+    width:28px;
+    height:27px;
+}
+#socials a img{
+    width:auto;
+    opacity: 0.5;
+}
+#wrap_footer a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+#sub-footer p{
+    line-height: 24px;
+}
+@media screen and (max-width: 600px) {
+    #top_nav{
+        padding: 26px 31px 17px!important;
+    }
+    #top_nav table{
+        width: 100%;
+        float: initial;
+        text-align: center!important;
+    }
+    #top_nav .btn{
+        display: none;
+    }
+    h1{
+        font-size: 34.03px;
+        max-width: 200px;
+        margin: 0 0 5px 0;
+    }
+    #hero td{
+        padding-left: 42px!important;
+        background-position: 30% 100%!important;
+    }
+    #hero p{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 14px!important;
+    }
+    #hero .btn-red{
+        min-width: 177px;
+    }
+    h2{
+        font-size: 30px;
+        padding-bottom: 22px;
+    }
+    .col-l, .col-r{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .col-l img, .col-r img{
+        width: 30%;
+        max-width: 18px!important;
+    }
+    .col-l p, .col-r p{
+        max-width: 300px!important;
+        padding-left: 5px!important;
+        padding-right: 0px!important;
+        width: 70%;
+        padding-top: 2px;
+    }
+    #main_content{
+        padding: 52px 0 62px!important;
+    }
+    #main_content p{
+        padding-left: 41px;
+        padding-right: 41px;
+        text-align: left;
+    }
+    .col-main{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        padding-bottom: 16px!important;
+    }
+    .col-main td{
+        padding-bottom: 5px!important;
+    }
+    #wrap_footer table{
+        width: 100%;
+        float: initial;
+        text-align: center!important;
+    }
+    #footer p{
+        text-align: center!important;
+        padding-bottom: 20px;
+    }
+    #footer p img{
+        max-width: 15px;
+    }
+    #sub-footer p{
+        max-width: 230px;
+    }
+    #hero {
+        min-height: 355px;
+    }
+    #sub-footer{
+        padding: 36px 0 83px!important;
+    }
+    #main_content .p-mov {
+        
+        padding-bottom: 29px!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hero td {
+        padding-left: 38px!important;
+        background-position: 50% 100%!important;
+        padding-top: 41px!important;
+    }
+    
+    #main_content .p-mov{
+        max-width: 240px!important;
+        padding-bottom: 29px!important;
+    }
+    #padding-m{
+        padding-bottom: 8px!important; 
+    }
+    #main_content .col-l p, .col-r p{
+        padding-bottom: 8px!important; 
+    }
+    .col-main{
+        max-width: 320px!important;
+    }
+}
+  </style>
+</head>
+  <body class="wrapper">
+    <div class="container">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="top_nav" style="padding: 26px 31px; background-color: #fff;">
+            <tr>
+                <td >
+                   <table  align="left" border="0" cellpadding="0" cellspacing="0" width="50%" style="text-align: left;">
+                       <tr>
+                           <td>
+                                <img src="./image_news/logo.png" alt="" style="max-width: 207px; width: 100%;">
+                           </td>
+                       </tr>
+                   </table>
+                   <table align="right" border="0" cellpadding="0" cellspacing="0" width="50%" style="text-align: right;">
+                     <tr>
+                         <td>
+                            <a href="" class="btn btn-white" style="color: #000000;">Open in Browser</a>
+                         </td>
+                     </tr>
+                </table>
+                </td>
+            </tr>
+        </table>
+        <!-- Hero -->
+        <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="100%" id="hero" style="background-color: #ebecec;">
+            <tr>
+                <td style="background: url(./image_news/hero.png) no-repeat; padding-left: 81px; vertical-align: middle; background-size: cover; padding-bottom: 37px; padding-top: 7px;" >
+                  <h1>
+                     Lorem Ipsum Sit Amet
+                  </h1>
+                  <p style="padding-bottom: 8px;">
+                     Ut Enim Ad Minim
+                  </p>
+                  <a href="" class="btn btn-red" style="color: #fff;">Neque Porro</a>
+                </td>
+            </tr>
+        </table>
+        <!-- Main Section -->
+        <table border="0" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="100%" id="main_content" style="text-align: center; padding: 66px 0 80px;">
+            <tr>
+                <td valign="top">
+                    <h2>
+                        Ut Perspiciatis
+                    </h2>
+                    <p class="p-mov" style="max-width: 457px; margin:0 auto; padding-bottom: 48px;">
+                        Neque porro quisquam estv, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" align="center">
+                    <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="70%" class="col-main"  style="max-width: 400px; margin: 0 auto; width: 100%; padding-bottom: 52px;">
+                        <tr>
+                            <td style="padding-bottom: 25px;">
+                                <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="50%" align="left" class="col-l">
+                                    <tr>
+                                        <td >
+                                           <img src="./image_news/icon1.png" alt="" style="max-width: 33px; float: left; padding: 1px 0;">
+                                           <p style="text-align: left; max-width: 130px; margin: 0 auto 0 0; float: left; padding-left: 5px; line-height: normal;">
+                                                <strong>Lorem Ipsum Dolor</strong>
+                                            </p>
+                                        </td>
+                                        
+                                    </tr>
+                                </table>
+                                <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="50%" align="right" class="col-r">
+                                        <tr>
+                                            <td>
+                                                <img src="./image_news/icon2.png" alt="" style="max-width: 33px;  float: left; padding: 4px 0;">
+                                                <p id="padding-m" style="text-align: left; max-width: 130px; margin: 0 auto 0 0;  float: left; padding-left: 5px; line-height: normal;">
+                                                    <strong>Ut Enim Ad Minim</strong>
+                                                </p>
+                                            </td>
+                                            
+                                        </tr>
+                                </table> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="50%" align="left" class="col-l">
+                                    <tr>
+                                        <td>
+                                           <img src="./image_news/icon3.png" alt="" style="max-width: 33px; float: left; padding: 5px 0;">
+                                           <p style="text-align: left; max-width: 123px; margin: 0 auto 0 0; float: left; padding-left: 5px; line-height: normal;">
+                                             <strong>Duis Aute Irure Dolor</strong>
+                                            </p> 
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="50%" align="right" class="col-r">
+                                        <tr>
+                                            <td>
+                                                <img src="./image_news/icon4.png" alt="" style="max-width: 33px; float: left; padding: 5px 0;">
+                                                <p style="text-align: left; max-width: 130px; margin: 0 auto 0 0; float: left; padding-left: 5px; line-height: normal;">
+                                                    <strong>Excepteur Occaecat</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                </table> 
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <p class="p-mov" style="max-width: 460px; margin: 0 auto; text-align: left; padding-bottom: 20px;">
+                      Lorem ipsum dolorelor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                    <p class="p-mov" style="max-width: 460px; margin: 0 auto; text-align: left; padding-bottom: 40px;">
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                    </p>
+                    <a href="" class="btn btn-red" style="color: #fff;">Neque Porro</a>                     
+                </td>
+            </tr>
+        </table>
+  <!-- Footer -->
+  <table id="footer" bgcolor="#805ce5" class="center" style="padding: 00px 0px 0px 0px; text-align: center;" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td valign="top" align="center" id="wrap_footer" style="width: 100%; max-width: 600px; margin-left: auto;margin-right: auto;display: inline-block; padding: 54px 0 49px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="86%" style="margin: 0 auto;">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="33.3%" align="left" >
+                        <tr>
+                            <td  valign="top"  style="padding:0 0 5px;">
+                                <p style=" text-align: left; font-size: 11px;">
+                                    © 2017 - 2019 
+                                    <span style="display: block;">InjuryCaseWorth.com</span>  
+                                </p>
+                            </td>
+                        </tr>
+                    </table>  
+                    <table border="0" cellpadding="0" cellspacing="0" width="33.3%"  align="left" >
+                        <tr>
+                            <td   valign="top"  style="padding:0 0 5px;">
+                                <p style="font-size: 18.03px;">
+                                    <img src="./image_news/phone.png" alt="" style="padding-right: 11px;"> (310) 906-2603
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+            
+                    <table border="0" cellpadding="0" cellspacing="0" width="33.3%" align="left" id="socials" style="text-align: right;">
+                      <tr>
+                        <td  valign="top"  style="padding:0 0 5px;">
+                          <a href=""><img src="./image_news/facebook.png" alt="facebook"></a>
+                          <a href=""><img src="./image_news/tw.png" alt="twitter"></a>
+                          <a href="" style="margin-right:0;"><img src="./image_news/in.png" alt="instagram"></a>
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+  </tr>
+  <tr>
+      <td style="background-color: #fff;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 36px 0;"id="sub-footer" >
+                <tr>
+                    <td valign="top" align="center">
+                        <p style="text-align: center; color: #757575; opacity: 0.7;">You can update your <a href="" style="text-decoration: underline; color: #757575;">preferences</a> or <a href="" style="text-decoration: underline; color: #686868;">unsubscribe</a> from this list</p>   
+                    </td>
+                </tr>
+            </table>
+      </td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,798 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <!-- This is a simple example template that you can edit to create your own custom templates -->
+    <!--[if gte mso 15]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG />
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>InjuryCaseworth Newsletter v1-b</title>
+    
+    <style type="text/css">
+
+    @font-face {
+        font-family: 'Helvetica Neue LT Std';
+        src: url('fonts/HelveticaNeueLTStd-It.woff') format('woff');
+        font-weight: normal;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: 'Helvetica Neue LT Std';
+        src: url('fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Helvetica Neue LT Std';
+        src: url('fonts/HelveticaNeueLTStd-Md.woff') format('woff');
+        font-weight: 500;
+    }
+    @font-face {
+        font-family: 'Helvetica Neue LT Std';
+        src: url('fonts/HelveticaNeueLTStd-Bd.woff') format('woff');
+        font-weight: bold;
+    }
+
+    body,.wrapper {
+        background-color: #f2f2f2;
+        color: #262626;
+        font-family:'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+        margin: 0;
+    }
+    /* wrappers */
+    .wrapper{
+        width:100%;
+        table-layout:fixed;
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+    }
+    .container{
+        max-width:600px;
+        margin:0 auto;
+    }
+    /* Tipography */
+    h1,h2,h3,h4,h5,p,a,span,button,li{
+        font-family:'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+        margin-top: 0;
+    }
+    h1,h2,h3,h4,h5 {
+        color: #262626;
+    }
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 36px;font-weight: 500;line-height: normal;
+    }
+    h3 { font-size: 24px; line-height: 25px;  margin-bottom: 15px; }
+    p{ color: #262626; font-size: 16px;line-height: 28px;margin-top: 0;}
+
+    img{
+        margin:0;
+        padding:0;
+        border-spacing:0;
+    }
+    a {
+        display: inline-block;
+    }
+
+    /* Common clases */
+    #top_nav {
+        color: #000;
+        font-size: 13px;
+        line-height: 48px;
+    }
+    #top_nav a {
+        color: inherit;
+    }
+    #hero {
+        background: url(./images/email-hero.jpg) scroll 0 0 no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+    }
+    #hero .hero-logo table {
+        background-color: transparent;
+    }
+    #hero .hero-top h1,
+    #hero .hero-top p { color: inherit; }
+    #hero .hero-top p {font-size: 21px;line-height: normal;margin-bottom: 0;}
+    #hero .hero-bottom p {font-size: 18px;line-height: 30px;max-width: 378px;text-align: center;}
+
+    #percent_cnt .col-p1,
+    #percent_cnt .col-p2,
+    #percent_cnt .col-p3 {
+        float: left;
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+        margin: 0;
+    } 
+    #percent_cnt h3 {
+        color: #e55a50;
+        font-size: 58.89px;
+        line-height: 1em;
+        margin-bottom: 5px;
+    }
+    #percent_cnt .col-p1 p,
+    #percent_cnt .col-p2 p,
+    #percent_cnt .col-p3 p  {
+        font-size: 13.2px;
+        line-height: normal;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    #percent_cnt .col-p1,
+    #percent_cnt .col-p2 {
+        border-right: 1px solid #eeeeee;
+    }
+
+    #main_content .main-intro h2 {
+        margin-bottom: 25px;
+    }
+    #main_content .main-intro p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #section_3 h3, 
+    #section_3 p {
+        color: #fff;
+    }
+    #bg_img_3{
+        background:url(./images/email-bg1.jpg) scroll 0 0 no-repeat;
+        background-size: cover;
+    }
+    #bg_img_4{
+        background:url(./images/email-bg2.jpg) scroll 0 0 no-repeat;
+        background-size: cover;
+    }
+
+
+#pre_footer{
+    background:#f8f6fc;
+    padding:40px 15px 50px;
+    text-align:center;
+}
+#pre_footer #cta_content h3 {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#pre_footer #cta_content p {
+    font-size: 17.5px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pre_footer #cta_content p.big {
+    font-size: 22.5px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#pre_footer #cta_content p.big span {
+    font-weight: normal;
+}
+#product_list {
+    display: block;
+    padding: 0 20px 40px;
+}
+#product_list .product {
+    float: left;
+    text-align: center;
+    width: 33.333333%;
+}
+#product_list img {
+    margin-bottom: 10px;
+}
+#product_list p {
+    font-size: 11.85px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    text-transform: uppercase;
+}
+#full_with_image img {
+    width: 100%;
+}
+.clearfix {
+    clear: both;
+    display: table;
+}
+.btn{
+    background: url(./images/email-btn.png) scroll 0 0 no-repeat;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    height: 60px;
+    text-decoration: none;
+    width: 199px;
+    padding: 0 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-3-cols table{
+    padding-left: 5px;
+}
+.section-3-cols h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.section-3-cols p{
+    font-size: 15px;
+    line-height: 24px;
+    min-height: 144px;
+    max-width: 160px;
+}
+
+h5{
+    font-family: 'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+#section-computer p{
+    font-family: 'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+#section-computer p{
+    max-width: 389px;
+    margin: 0 auto;
+}
+
+/* banner-neque */
+#banner-neque{
+    min-height: 381px;
+    background-size: cover!important;
+    padding-left: 86px;
+    
+}
+
+#banner-neque h6{
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 auto 0 0;
+    max-width: 310px;
+    padding-bottom: 10px;
+    font-family: 'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+}
+#banner-neque p{
+    color: #fff;
+    font-size: 18px; 
+    padding-bottom: 24px;
+    margin: 0 auto;
+}
+/* man code  copy */
+#testimonial-person{
+    padding: 79px 0 46px 0;
+}
+
+#testimonial-person p{
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Helvetica Neue LT Std',Arial,Helvetica,sans-serif;
+    color: #737373;
+    line-height: 30px;
+    max-width: 220px;
+}
+#testimonial-person p strong{ 
+    display: block;
+    color: #262626;
+    padding-top: 15px;
+    font-style: initial;
+    font-size: 20px;
+    line-height: 59.58px; 
+}
+.tableLeft{
+    float: left; 
+    border-spacing: 0;
+    width: 45%;
+}
+.tableRight {
+    float: right;
+    width: 50%;
+    border-spacing: 0;
+    padding-left: 21px;
+}
+.image-phone{
+    display: none;
+}
+
+/* footer code */
+
+#footer{
+    background-color: #363636;
+    color:#fff;
+}
+#footer a{
+    color:#fff;
+    text-decoration:none;
+    display: inline-block !important;
+}
+#footer a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+#footer p{
+    margin-bottom: 0;
+    color: #fff;
+    max-width: 100%;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    opacity: 0.4;
+}
+#socials,#info_footer{
+    float: left;
+}
+#socials a{
+    display:inline-block;
+    margin-right:10px;
+    border-radius:50%;
+    width:28px;
+    height:27px;
+}
+#socials a img{
+    width:auto;
+    opacity: 0.5;
+}
+#wrap_footer a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+#sub-footer p{
+    line-height: 24px;
+}
+
+/** mobile */
+@media screen and (max-width: 560px) {
+    #percent_cnt h3 {
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 520px) {
+    #hero {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+        line-height: 42px;
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    #hero .hero-top p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #hero .hero-logo img {
+        height: 22px;
+        width: auto;
+    }
+    #hero .hero-logo table {
+        padding-top: 35px !important;
+        padding-bottom: 40px !important;
+    }
+    #hero .hero-top {
+        padding-bottom: 30px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #hero .hero-cta {
+        padding-bottom: 62px !important;
+    }
+
+    #main_content .main-intro {
+        padding-top: 40px !important;
+        padding-bottom: 10px !important;
+    }
+    #main_content .padx-mobile {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+    #main_content .main-intro h2 {
+        margin-bottom: 20px;
+    }
+    #percent_cnt {
+        padding-bottom: 20px !important;
+    }
+    #main_content #percent_cnt.padx-mobile {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    #percent_cnt .col-p1,
+    #percent_cnt .col-p2,
+    #percent_cnt .col-p3 {
+        float: none;
+        width: 98% !important;
+        padding-left: 0 !important;
+        padding-right: 2% !important;
+        text-align: center;
+        width: 230px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px !important;
+        margin-bottom: 15px;
+        text-align: right;
+    }
+    #percent_cnt .col-p1,
+    #percent_cnt .col-p2 {
+        border-right:  0 none;
+        border-bottom: 1px solid #eeeeee;
+    }
+    #percent_cnt h3 {
+        display: inline-block;
+        font-size: 36px;
+        margin-right: 10px;
+    }
+    #percent_cnt p {
+        display: inline-block;
+        width: 111px;
+        text-align: left;
+    }
+    #wrap_footer table{
+        width: 100%;
+        float: initial;
+        text-align: center!important;
+    }
+    #footer p{
+        text-align: center!important;
+        padding-bottom: 20px;
+    }
+    #footer p img{
+        max-width: 15px;
+    }
+    #sub-footer p{
+        max-width: 230px;
+    }
+    #sub-footer{
+        padding: 36px 0 83px!important;
+    }
+    #banner-neque{
+        padding-left: 0;
+    }
+    .tableLeft,
+    .tableRight{
+        width: 100%!important;
+        text-align: center;
+        float: inherit!important;
+        padding: inherit!important;
+        margin-top: 20px!important;
+    }
+    .image-desk{
+        display: none;
+    }
+    .image-phone{
+        display: block; 
+        padding-bottom: 6px;
+    }
+    .tableRight p{
+        margin: 0 auto;
+    }
+    #testimonial-person{
+        padding: 26px 0 31px 0;
+    }
+    #banner-neque{
+        text-align: center;
+        min-height: 322px;
+        padding-bottom: 14px;
+        background-position: left center!important;
+    }
+    #banner-neque h6{
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 32px;
+        padding-right: 32px; 
+        font-size: 40px;
+    }
+    #banner-neque p{
+        text-align: center;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 27px;
+    }
+    #section-computer p{
+        text-align: left;
+        line-height: 28px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    h5{
+        max-width: 389px;
+        text-align: left;
+        padding-top: 39px!important;
+        padding-bottom: 15px!important;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    #section-computer{
+        padding: 0 0 56px 0!important;
+    }
+    #testimonial-person p{
+        max-width: 240px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #row_3,
+    #row_4 {
+        display: block !important;
+    }
+    #section_3,
+    #section_4 {
+        display: block !important;
+        width: 80%;
+        padding-top: 38px !important;
+        padding-bottom: 25px !important;
+    }
+    #main_content #section_3.padx-mobile,
+    #main_content #section_4.padx-mobile  {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    #section_4 {
+        background-color: #fff;
+        padding-bottom: 30px !important;
+    }
+    #bg_img_3 {
+        background-image: url(./images/email-bg1-mob.jpg);
+        background-size: cover;
+        display: block !important;
+        height: 140px;
+        width: 100%;
+    }
+    #bg_img_4 {
+        display: none;
+    }
+    #section-computer p, h5{
+        max-width: 229px;
+    }
+}
+  </style>
+</head>
+  <body class="wrapper" style="background: #f2f2f2;">
+    <!--[if !gte mso 9]><!-->
+    <span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span>
+    <!--<![endif]-->
+    <!--*|END:IF|*-->
+    <div class="container">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="top_nav" style="padding: 4px 10px;">
+            <tr>
+                <td align="center">
+                    <a href="">Open in Browser</a>
+                </td>
+            </tr>
+        </table>
+        <!-- Hero -->
+        <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="100%" id="hero" style="padding: 0 8.66%;">
+            <tr>
+                <td valign="top" class="hero-logo">
+                    <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="100%" style="padding: 50px 10px 50px 10px;">
+                        <tr>
+                            <td align="center">
+                                <img src="./images/email-logo.png" alt="logo">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" class="hero-top" style="padding: 0 20px 35px;text-align: center;">
+                    <h1>Lorem Ipsum<br>Sit Amet</h1>
+                    <p>Ut Enim Ad Minim</p>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" class="hero-cta" style="text-align: center;padding-bottom: 85px">
+                    <a href="#" class="btn" style="color: #fff;">Neque Porro</a>
+                </td>
+            </tr>
+        </table>
+        <!-- Main Section -->
+        <table border="0" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="100%" id="main_content">
+            <tr>
+                <td valign="top" align="center" style="padding: 50px 8.66% 36px;" class="padx-mobile main-intro">
+                    <h2>Ut Perspiciatis</h2>
+                    <p>Neque porro quisquam estv, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" style="padding: 0 8.66% 80px;" class="padx-mobile" id="percent_cnt">
+                        <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="32%" align="left" class="col-p1">
+                            <tr>
+                                <td>
+                                    <h3>3</h3>
+                                    <p>years in the business</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="32%" align="center" class="col-p2">
+                                <tr>
+                                    <td>
+                                        <h3>27</h3>
+                                        <p>successful cases</p>
+    
+                                    </td>
+                                </tr>
+                        </table>
+                        <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="32%" align="right" class="col-p3">
+                            <tr>
+                                <td>
+                                    <h3>34%</h3>
+                                    <p>of leads increase on average</p>
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="100%" id="row_3">
+                        <tr>
+                            <td style="padding: 60px 68px 60px;" bgcolor="#e55a50" class="padx-mobile"  id="section_3">
+                                <h3>Omnis Iste Natus</h3>
+                                <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
+                            </td>
+                            <td id="bg_img_3" width="33%" valign="top" class="col-bg-mobile">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <table border="0" bgcolor="#fff" cellpadding="0" cellspacing="0" width="100%"  id="row_4">
+                        <tr>
+                            <td id="bg_img_4" width="33%" valign="top" class="col-bg-mobile" id="section_4">
+                            </td>
+                            <td style="padding: 60px 68px 60px;" bgcolor="#f7f7f7" class="padx-mobile" id="section_4">
+                                <h3 >Laudantium</h3>
+                                <p >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+      
+        <!-- section computer -->
+        <table border="0" bgcolor="#fff"  cellpadding="0" cellspacing="0" width="100%" id="section-computer" style="background-color: #fff; text-align: center; padding: 60px 0 92px 0;">
+                <tr>
+                    <td>
+                        <img src="./images/image-computer.png" alt="" style="max-width: 443px; width: 100%; margin:0 auto;">
+                        
+                            <h5 style="padding-top: 41px; padding-bottom: 17px;">Lorem Ipsum</h5>
+                        <p>
+                            Neque porro quisquam estv, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <!--banner-neque  -->
+            <table border="0"  cellpadding="0" cellspacing="0" width="100%" id="banner-neque" style="background: url(./images/banner-neque.png) no-repeat; ">
+                <tr>
+                    <td>
+                        <h6>
+                            Lorem Ipsum Sit Amet
+                        </h6>
+                        <p>
+                            Ut Enim Ad Minim
+                        </p>
+                        <a href="#home" class="btn" style="color: #fff;">Neque Porro</a>
+                    </td>
+                </tr>
+            </table>
+        
+        
+            <!-- testimonial man -->
+            <table border="0" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="100%" id="testimonial-person" style="background: #fff;">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" class="tableLeft">
+                                 
+                            <tr>
+                                <td>
+                                    <img src="./images/man.png" alt="" class="image-desk" style="max-width: 257px; width: 100%;">
+                                    <img src="./images/man-1.png" alt="" class="image-phone" style="max-width: 100px; width: 100%; margin: 0 auto;">
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" class="tableRight">
+                            <tr>
+                                <td>
+                                   <p>
+                                        Lorem ipsum dolor sit amet, dolor quam tempor, nulla eu enim aliquam odio sed, nunc eu ac dapibus tortor. Pede ligula metus sed blandit, erat dapibus vestibulum.
+                                        <strong>
+                                            John Doe
+                                        </strong>
+                                   </p>
+                                </td>
+                            </tr>
+                        
+                        </table>
+                    </td>
+                </tr>
+        
+             </table>
+            
+          <!-- Footer -->
+         <!-- Footer -->
+         <table id="footer" bgcolor="#805ce5" class="center" style="padding: 00px 0px 0px 0px; text-align: center;" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td valign="top" align="center" id="wrap_footer" style="width: 100%; max-width: 600px; margin-left: auto;margin-right: auto;display: inline-block; padding: 54px 0 49px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="86%" style="margin: 0 auto;">
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="33.3%" align="left" >
+                                <tr>
+                                    <td  valign="top"  style="padding:0 0 5px;">
+                                        <p style=" text-align: left; font-size: 11px;">
+                                            © 2017 - 2019 
+                                            <span style="display: block;">InjuryCaseWorth.com</span>  
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>  
+                            <table border="0" cellpadding="0" cellspacing="0" width="33.3%"  align="left" >
+                                <tr>
+                                    <td   valign="top"  style="padding:0 0 5px;">
+                                        <p style="font-size: 18.03px;">
+                                            <img src="./images/phone.png" alt="" style="padding-right: 11px;"> (310) 906-2603
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                    
+                            <table border="0" cellpadding="0" cellspacing="0" width="33.3%" align="left" id="socials" style="text-align: right;">
+                              <tr>
+                                <td  valign="top"  style="padding:0 0 5px;">
+                                  <a href=""><img src="./images/facebook.png" alt="facebook"></a>
+                                  <a href=""><img src="./images/tw.png" alt="twitter"></a>
+                                  <a href="" style="margin-right:0;"><img src="./images/in.png" alt="instagram"></a>
+                                </td>
+                              </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+          </tr>
+          <tr>
+              <td style="background-color: #fff;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 36px 0;"id="sub-footer" >
+                        <tr>
+                            <td valign="top" align="center">
+                                <p style="text-align: center; color: #757575; opacity: 0.7;">You can update your <a href="" style="text-decoration: underline; color: #757575;">preferences</a> or <a href="" style="text-decoration: underline; color: #686868;">unsubscribe</a> from this list</p>   
+                            </td>
+                        </tr>
+                    </table>
+              </td>
+        </tr>
+        </table>
+        </div>
+        </body>
+</html>
